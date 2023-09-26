@@ -2,32 +2,32 @@
 
 @font-face {
     font-family: 'pricedownblack';
-    src: url('webfontkit-20230921-104252/pricedown_bl-webfont.woff2') format('woff2'),
-         url('webfontkit-20230921-104252/pricedown_bl-webfont.woff') format('woff');
+    src: url('fonts/webfontkit-20230921-104252/pricedown_bl-webfont.woff2') format('woff2'),
+         url('fonts/webfontkit-20230921-104252/pricedown_bl-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'futura_round_cond_boldregular';
-    src: url('webfontkit-20230921-190716/futura_round_cond_bold-webfont.woff2') format('woff2'),
-         url('webfontkit-20230921-190716/futura_round_cond_bold-webfont.woff') format('woff');
+    src: url('fonts/webfontkit-20230921-190716/futura_round_cond_bold-webfont.woff2') format('woff2'),
+         url('fonts/webfontkit-20230921-190716/futura_round_cond_bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'beckettregular';
-    src: url('webfontkit-20230921-193633/beckett_-webfont.woff2') format('woff2'),
-         url('webfontkit-20230921-193633/beckett_-webfont.woff') format('woff');
+    src: url('fonts/webfontkit-20230921-193633/beckett_-webfont.woff2') format('woff2'),
+         url('fonts/webfontkit-20230921-193633/beckett_-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'bankgothic_lt_btlight';
-    src: url('webfontkit-20230922-100753/bankgothicltbtlight-webfont.woff2') format('woff2'),
-         url('webfontkit-20230922-100753/bankgothicltbtlight-webfont.woff') format('woff');
+    src: url('fonts/webfontkit-20230922-100753/bankgothicltbtlight-webfont.woff2') format('woff2'),
+         url('fonts/webfontkit-20230922-100753/bankgothicltbtlight-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
