@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fragment+Mono&family=Montserrat:wght@300&family=Rubik&display=swap');
+
+@font-face {
+    font-family: 'pricedownblack';
+    src: url('webfontkit-20230921-104252/pricedown_bl-webfont.woff2') format('woff2'),
+         url('webfontkit-20230921-104252/pricedown_bl-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futura_round_cond_boldregular';
+    src: url('webfontkit-20230921-190716/futura_round_cond_bold-webfont.woff2') format('woff2'),
+         url('webfontkit-20230921-190716/futura_round_cond_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'beckettregular';
+    src: url('webfontkit-20230921-193633/beckett_-webfont.woff2') format('woff2'),
+         url('webfontkit-20230921-193633/beckett_-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bankgothic_lt_btlight';
+    src: url('webfontkit-20230922-100753/bankgothicltbtlight-webfont.woff2') format('woff2'),
+         url('webfontkit-20230922-100753/bankgothicltbtlight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: rgb(14, 176, 82);
+    color: white;
+    font-family: 'futura_round_cond_boldregular', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    border: 3px;
+}
+
+a:hover {
+    color: white;
+}
+
+.titulo {
+    font-family: 'pricedownblack', sans-serif;
+    -webkit-text-stroke: 2px #fff;
+    letter-spacing: -0.02em;
+    color: black;
+    margin: 0;
+    font-size: 8em;
+}
+
+.contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1em;
+    height: 100vh;
+    width: 50%;
+}
+
+.material-symbols-outlined {
+    font-size: 70px !important;
+    font-weight: 200 !important;
+}
+
+.botones { 
+    width: 40%;
+    table-layout: fixed;
+    border-collapse: collapse; 
+}
+
+.boton { 
+    font-size: 1em;
+    width: 100%;
+    margin: 0.3em;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-color: white;
+    border-width: 0px;
+    border-style: solid;
+    padding: 0.8em;
+    border-radius: 2em;
+    font-family: 'Rubik', sans-serif;
+    color: rgb(96, 96, 96);
+    transition: all 1s ease;
+}
+
+.boton:hover{ 
+    width: 100%;
+    margin: 0.3em;
+    background-color: black;
+    color: white;
+}
+
+.bienvenido {
+    display: flex;
+    justify-content: space-between;
+    align-items: last baseline;
+    width: 100%;
+    font-family: 'pricedownblack', sans-serif;
+    color: black;
+    height: 9%;
+}
+
+.opciones {
+    display: flex;
+    align-items: center;
+    height: 30%;
+    justify-content: space-between;
+    width: 100%;
+    overflow: hidden;
+}
+
+.opcion {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    width: 23%;
+    height: 100%;
+    text-align: center;
+    border-radius: 1em;
+    justify-content: center;
+    transition: all 1s ease;
+    font-size: 1.5em;
+}
+
+.opcion:hover{ 
+    margin: 0.3em;
+    background-color: black;
+    color: white;
+}
+
+.saldo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    color: black;
+    margin: 1em;
+    border-radius: 1em;
+    height: 2em;
+    vertical-align: middle;
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.form_input {
+    margin-bottom: 1.5em;
+    width: 70%;
+}
+
+input {
+    border: none;
+    border-bottom: 3px solid black;
+    width: 100%;
+    font-family: 'futura_round_cond_boldregular', sans-serif;
+    font-size: 1.5em;
+    padding: 7px;
+    padding-left: 12px;
+}
+
+label {
+    font-family: 'pricedownblack', sans-serif;
+    font-size: 1.5em;
+    color: white;
+    -webkit-text-stroke: 2px #000;
+}
+
+#new_account {
+    font-family: 'beckettregular', sans-serif;
+    letter-spacing: -0.03em;
+    font-size: 4em;
+    margin-bottom: 20px;
+}
+
+#form_new_account {
+    justify-content: start;
+}
+
+.send_form {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 0.5em;
+}
+
+.send_form_opt {
+    font-family: 'bankgothic_lt_btlight', sans-serif;
+    font-size: 2em;
+    padding: 10px;
+}
+
+.login_opts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cross {
+    display: flex;
+    align-items: end;
+}
+
+.daga {
+    display: none;
+}
+
+.titulo_hist {
+    font-family: 'beckettregular', sans-serif;
+    font-size: 4em;
+    margin: 0;
+}
+
+#headers {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'pricedownblack', sans-serif;
+    -webkit-text-stroke: 1px #fff;
+    font-size: 2em;
+    color: black;
+    margin-bottom: 10px;
+    /**
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+    */
+}
+
+#transacciones {
+    width: 100%;
+    max-height: 50%;
+    overflow: scroll;
+}
+
+.transaccion {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    font-size: 1.5em;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 0.2em;
+}
+
+.plus {
+    color: rgb(14, 176, 82);
+}
+
+.minus {
+    color: #e82c2c;
+}
+
+.monto_trans {
+    font-family: 'pricedownblack', sans-serif;
+    font-size: 1.3em;
+    -webkit-text-stroke: 2px black;
+}
+
+#regresar {
+    margin-top: 20px;
+}
